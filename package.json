@@ -1,6 +1,6 @@
 {
   "name": "generate-csv-from-array",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "quickly generate a csv formatted string from an array of data  by selecting keys or getter functions",
   "main": "dist/generateCSVFromArray.js",
   "types": "dist/generateCSVFromArray.d.ts",
