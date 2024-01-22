@@ -1,0 +1,29 @@
+{
+  "name": "generate-csv-from-array",
+  "version": "1.0.0",
+  "description": "quickly generate a csv formatted string from an array of data  by selecting keys or getter functions",
+  "main": "dist/generateCSVFromArray.js",
+  "types": "dist/generateCSVFromArray.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "prepack": "npm test",
+    "prepare": "tsc",
+    "test": "jest"
+  },
+  "keywords": [
+    "csv",
+    "util"
+  ],
+  "author": "Vesper",
+  "license": "MIT",
+  "dependencies": {
+    "lodash.get": "^4.4.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.11",
+    "@types/lodash.get": "^4.4.9",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.1",
+    "typescript": "^5.3.3"
+  }
+}
